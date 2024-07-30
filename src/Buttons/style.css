@@ -1,0 +1,77 @@
+button{
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 2px double black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+button:hover{
+    background:rgb(205, 204, 204);
+}
+button:active{
+    background:rgb(156, 155, 155);
+}
+.default{
+    border: 2px dotted rgb(49, 48, 48);
+    background:gray;
+    color: white;
+}
+.default:hover{
+    background:rgb(101, 101, 101);
+}
+.default:active{
+    background:rgb(65, 65, 65);
+}
+.primary{
+    border: 2px solid rgb(27, 67, 198);
+    background:rgb(0, 119, 255);
+    color: white;
+}
+.primary:hover{
+    background:rgb(23, 101, 219);
+    border: 2px solid rgb(5, 32, 122);
+}
+.primary:active{
+    background:blue;
+}
+.danger{
+    border: 2px inset rgb(139, 2, 2);
+    background:red;
+    color: white;
+}
+.danger:hover{
+    background:rgb(214, 3, 3);
+}
+.danger:active{
+    border: 2px inset rgb(139, 2, 2);
+    background:rgb(142, 11, 11);
+}
+.warning{
+    border: 2px ridge rgb(181, 119, 5);
+    background:orange;
+    color: white;
+}
+.warning:hover{
+    border: 2px ridge rgb(147, 97, 3);
+    background:rgb(219, 143, 3);
+    color: white;
+}
+.warning:active{
+    border: 2px ridge rgb(126, 83, 2);
+    background:rgb(185, 121, 3);
+    color: white;
+}
+.success{
+    border: 2px groove rgb(51, 103, 3);
+    background:green;
+    color: white;
+}
+.success:hover{
+    border: 2px groove rgb(40, 80, 2);
+    background:rgb(1, 100, 1);
+}
+.success:active{
+    border: 2px groove rgb(38, 78, 2);
+    background:rgb(9, 70, 9);
+}

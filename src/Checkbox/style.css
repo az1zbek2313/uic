@@ -1,0 +1,74 @@
+span{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 20px;
+    border: 1.2px solid black;
+    background:white;
+    border-radius: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+span::after{
+    content: '';
+    width: 17px;
+    height: 17px;
+    background: gray;
+    border-radius:50%;
+    position: absolute;
+    left: 1px;
+    top: 0.7px;
+    transition: all 0.5s;
+}
+span:hover{
+    background: rgb(0, 119, 255);
+}
+span:hover::after{
+    left: 21px;
+    background:white;
+}
+span.right{
+    background: rgb(0, 119, 255);
+}
+span.right::after{
+    left: 21px;
+    background:white;
+}
+span:hover{
+    background:rgb(23, 101, 219);
+}
+span:active{
+    background:rgb(27, 67, 198);
+}
+#middle{
+    width: 48px;
+    height: 24px;
+    border-radius:20px;
+}
+#middle::after{
+    width: 20px;
+    height: 20px;
+    top: 1px;
+}
+#middle:hover:after{
+    left: 25px;
+}
+#middle.right::after{
+    left: 25px;
+}
+#big{
+    width: 64px;
+    height: 28px;
+    border-radius:24px;
+}
+#big::after{
+    width: 24px;
+    height: 24px;
+    top: 1px;
+}
+#big:hover:after{
+    left: 38px;
+}
+#big.right::after{
+    left: 38px;
+}
